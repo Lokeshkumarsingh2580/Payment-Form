@@ -1,0 +1,84 @@
+html {
+  background-color: rgb(35, 179, 143);
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  font-size: 90px;
+  padding: 0;
+  color: rgba(235, 180, 27, 0.849);
+}
+h1:hover {
+  color: rgb(248, 224, 11);
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 60px;
+  margin: 10px;
+  color: white;
+}
+
+p {
+  display: flex;
+  /* background-color: yellow; */
+  padding: 10px;
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  padding: 3px 5px;
+  width: 500px;
+  /* border-radius: 5px; */
+  margin-left: 5px;
+  border: none;
+  border-bottom: 1px solid black;
+  color: white;
+  outline: none;
+  background-color: transparent;
+  /* font-size: 16px; */
+  margin-bottom: 2px;
+}
+
+::placeholder {
+  color: white;
+}
+
+textarea {
+  background: transparent;
+  width: 500px;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+fieldset {
+  border: 1px solid black;
+  border-radius: 5px;
+  /* text-align: center; */
+  font-size: 20px;
+}
+
+.btn {
+  padding: 20px 200px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+.d {
+  font-size: 80px;
+  margin-top: 50px;
+}
+
+.Paynow {
+  background-color: #efefef;
+  color: black;
+  padding: 20px 80px;
+  margin-left: 15px;
+}
+
+.cvv {
+  margin-left: 10px;
+}
